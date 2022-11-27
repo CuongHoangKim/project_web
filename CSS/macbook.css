@@ -256,7 +256,7 @@ th{
 .product--1{
     margin: 10px;
     width: 232px;
-    border: 0.5px solid #484848;
+    border: #484848 0.5px;
 }
 
 
