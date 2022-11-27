@@ -144,7 +144,7 @@ th{
     display: flex;
 }
 
-.menu--product--left{
+/* .menu--product--left{
     border: 1px solid black;
     border-radius: 10px;
     width: 30%;
@@ -154,8 +154,8 @@ th{
     margin-right: 40px;
     margin-bottom: 200px;
     padding-bottom: 0px;
-}
-#menu ul {
+} */
+/* #menu ul {
     background: #fdfdfd;
     width: 250px;
     padding: 0;
@@ -179,8 +179,8 @@ th{
 }
 #menu ul li {
     position: relative;
-}
-#menu .sub-menu {
+} */
+/* #menu .sub-menu {
     position: absolute;
     left: 250px;
     top: 0;
@@ -188,7 +188,7 @@ th{
     border-radius: 5px;
 }
 #menu .sub-menu {
-    /* position: absolute; */
+    position: absolute; 
     left: 250px;
     top: 0;
     display: none;
@@ -198,11 +198,11 @@ th{
 }
 .g1{
     border-bottom: 1px solid rgb(174, 174, 174);
-}
+} */
 
 
 
-#slide--show {
+/* #slide--show {
     overflow: hidden;
     height: 330px;
     width: 800px;
@@ -239,13 +239,13 @@ th{
     margin-top: 15px;
     margin-left: 20px;
     border-radius: 10px;
-}
+} */
 
-.title--product--1{
+/* .title--product--1{
     display: flex;
     margin-top: -120px;
-    /* display: flex; */
-    /* flex-wrap: wrap; */
+    display: flex; 
+    flex-wrap: wrap; 
 }
 .title-1-1{
     margin-left: 20px;
@@ -254,7 +254,7 @@ th{
 .title-1-2{
     margin-left: 710px;
     font-size: medium;
-}
+} */
 .khung--product{
     display: flex;
     margin-top: 10px;
@@ -279,7 +279,7 @@ th{
 }
 
 
-.title--product--2{
+/* .title--product--2{
     margin-top: 20px;
     display: flex;
 }
@@ -302,8 +302,8 @@ th{
 .title-3-2{
     margin-left: 890px;
     font-size: medium;
-}
-.khung--product--4{
+} */
+/* .khung--product--4{
     display: flex;
     margin-top: 10px;
     border: 1px solid black;
@@ -311,8 +311,8 @@ th{
     width: 1160px;
     margin-left: 20px;
     height: 350px;
-}
-.title--product--4{
+} */
+/* .title--product--4{
     margin-top: 20px;
     display: flex;
 }
@@ -323,8 +323,8 @@ th{
 .title-4-2{
     margin-left: 890px;
     font-size: medium;
-}
-.khung--product--5{
+} */
+/* .khung--product--5{
     margin-top: 10px;
     display: flex;
     width: 1160px;
@@ -332,7 +332,7 @@ th{
     height: 250px;
     border: 1px solid black;
     border-radius: 10px;
-}
+} */
 .c1{
     width: 145px;
 }
