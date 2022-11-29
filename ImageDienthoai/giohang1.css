@@ -1,0 +1,306 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.on {
+  height: 70px;
+}
+#on {
+  width: 100%;
+  height: 70px;
+}
+.vietsmart {
+  display: flex;
+  height: 70px;
+  background-color: red;
+  color: white;
+}
+.vietsamrt-muongi {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+button {
+  height: 40px;
+  width: 80px;
+  background-color: rgb(54, 46, 46);
+  border: 1px black solid;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-left: 5px;
+  color: white;
+}
+.muongi {
+  height: 40px;
+  width: 300px;
+  background-color: rgb(121, 130, 130);
+}
+.vietsmart-giohang {
+  margin-left: 100px;
+  display: flex;
+  margin-top: 0px;
+}
+.vietsmart-giohang-giohang {
+  margin-left: 9px;
+  margin-top: 25px;
+}
+.vietsmart-goimua {
+  margin-left: 50px;
+}
+.vietsmart-goimua-sdt {
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+}
+.vietsmart-goimua-goimua {
+  font-size: 18px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.vietsmart-dangnhap {
+  height: 30px;
+  width: 130px;
+  border-radius: 12px;
+  margin-top: 20px;
+  margin-left: 50px;
+  text-align: center;
+  font-weight: bold;
+  border: 1px black solid;
+  background-color: rgb(210, 205, 205);
+  color: black;
+}
+.vietsmart-dangnhap-dangnhap {
+  margin-top: 5px;
+}
+#trove-home {
+  margin-left: 50px;
+}
+#trove-back {
+  margin-left: 10px;
+  margin-top: 0;
+}
+.trove-trove {
+  font-weight: bold;
+}
+.trove {
+  background-color: rgb(164, 154, 154);
+}
+.giohang {
+  text-align: center;
+  color: red;
+  font-weight: bolder;
+  margin-left: 120px;
+  height: 40px;
+  margin-top: 0;
+  width: 80%;
+  font-size: 18px;
+  border: 1px rgb(168, 3, 3) solid;
+  border-radius: 15px;
+}
+.samsung-thongtin {
+  display: flex;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.samsung-khuyenmai {
+  width: 300px;
+  margin-left: 50px;
+  background-color: rgb(173, 166, 166);
+  height: 250px;
+  margin-top: 50px;
+  border-radius: 12px;
+}
+.samsung {
+  border: 2px black solid;
+  border-radius: 20px;
+  width: 75%;
+  margin-left: 165px;
+  margin-top: 10px;
+}
+.samsung-ten {
+  font-weight: bold;
+  margin-left: 600px;
+  font-size: 20px;
+}
+.them {
+  margin-left: 50px;
+  display: flex;
+}
+.them-soluong {
+  width: 100px;
+  height: 20px;
+  margin-top: 13px;
+  margin-left: 7px;
+}
+.samsung-khuyenmai-thongtin {
+  margin-left: 5px;
+}
+.tongtien {
+  border-bottom: 2px black solid;
+  display: flex;
+}
+.tongtien-tamtinh {
+  font-weight: bolder;
+  font-size: 22px;
+  margin-left: 70px;
+}
+.tongtien-gia {
+  color: red;
+  margin-left: 700px;
+  font-size: 24px;
+}
+.hoten {
+  display: flex;
+}
+.hoten-ten {
+  height: 50px;
+  width: 300px;
+  border: 2px black solid;
+  border-radius: 10px;
+  margin-left: 70px;
+}
+.hoten-sdt {
+  height: 50px;
+  width: 300px;
+  border: 2px black solid;
+  margin-left: 50px;
+  border-radius: 10px;
+}
+.thongtin-luuy {
+  margin-left: 70px;
+  border: 2px black solid;
+  border-radius: 10px;
+  height: 90px;
+  width: 600px;
+}
+
+#hoten-ten {
+  margin-left: 10px;
+  margin-top: 15px;
+  font-size: 16px;
+}
+#hoten-sdt {
+  margin-left: 10px;
+  margin-top: 15px;
+  font-size: 16px;
+}
+.thanhtoan-content {
+  display: flex;
+  border-bottom: 1px black solid;
+}
+.thanhtoan-tienmat {
+  border: 2px grey solid;
+  border-radius: 8px;
+  margin-left: 50px;
+  margin-bottom: 4px;
+  width: 250px;
+  text-align: center;
+}
+.thanhtoan-the {
+  border: 2px grey solid;
+  border-radius: 8px;
+  width: 250px;
+  text-align: center;
+  margin-left: 50px;
+  margin-bottom: 4px;
+}
+.thanhtoan-tragop {
+  border: 2px grey solid;
+  border-radius: 8px;
+  width: 250px;
+  text-align: center;
+  margin-left: 50px;
+  margin-bottom: 4px;
+}
+#thanhtoan-the {
+  margin-top: 30px;
+}
+.thanhtoan {
+  font-weight: bold;
+  margin-left: 30px;
+  font-size: 20px;
+}
+#dathang1 {
+  background-image: linear-gradient(rgb(148, 2, 2), rgb(255, 66, 66));
+  width: 50%;
+  height: 40px;
+  color: white;
+  font-size: 30px;
+  border-radius: 17px;
+
+  text-align: center;
+  margin-left: 350px;
+}
+.dathang-2 {
+  width: 50%;
+  height: 40px;
+  color: rgb(255, 0, 0);
+  font-size: 30px;
+  text-align: center;
+  border: 1px red solid;
+  border-bottom: 4px red solid;
+
+  border-radius: 17px;
+  margin-left: 350px;
+  margin-bottom: 10px;
+}
+.dathang-1 {
+  margin-top: 10px;
+}
+.hotro-kh-khieunai {
+  font-weight: bold;
+}
+.hotro {
+  display: flex;
+}
+.atm {
+  height: 60px;
+  width: 150px;
+  margin-top: 20px;
+  margin-left: 70px;
+}
+.hotro-kh {
+  width: 300px;
+  margin-left: 150px;
+}
+.hotro-thanhtoan {
+  width: 300px;
+  margin-left: 50px;
+}
+.diachi {
+  margin-left: 50px;
+  width: 300px;
+}
+.hotro-thanhtoan-visa {
+  display: flex;
+  flex-direction: column;
+  border: 1.5px blue solid;
+  border-radius: 10px;
+  height: 250px;
+}
+.hotro-kh-tuvan {
+  border: 1.5px blue solid;
+  height: 250px;
+  border-radius: 10px;
+}
+.diachi-chinhanh {
+  height: 250px;
+  border: 1.5px blue solid;
+  border-radius: 10px;
+}
+#hotro-kh {
+  font-weight: bold;
+}
+#hotro-thanhtoan {
+  font-weight: bold;
+}
+#diachi {
+  font-weight: bold;
+}
+.hotro-kh-sdt {
+  margin-left: 9px;
+}
+.chinhanh1 {
+  margin-left: 10px;
+}
