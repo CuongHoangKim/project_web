@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+    <product>
+        <id>19</id>
+        <name>Máy Tính Bảng Lenovo Tab M8 Gen 2 2GB 32GB</name>
+        <price>1.990.000 ₫</price>
+        <tragop>Trả góp 0%</tragop>
+        <ff3>Giảm thêm 500.000 đ khi mua trả góp qua Kredivo</ff3>
+        <image>tablet-19.png</image>
+    </product>
+    <product>
+        <id>20</id>
+        <name>Lenovo Tab P11 Pro</name>
+        <price>9.390.000 ₫</price>
+        <tragop>Trả góp 0%</tragop>
+        <ff3>Giảm thêm 500.000 đ khi mua trả góp qua Kredivo</ff3>
+        <image>tablet-20.png</image>
+    </product>
+    <product>
+        <id>21</id>
+        <name>Máy tính bảng Lenovo Tab M10 Gen 2</name>
+        <price>2.790.000 ₫</price>
+        <tragop>Trả góp 0%</tragop>
+        <ff3>Giảm thêm 200.000 đ khi mua trả góp qua Kredivo</ff3>
+        <image>tablet-21.png</image>
+    </product>
+    <product>
+        <id>22</id>
+        <name>Máy tính bảng Lenovo Tab P11 Plus 4GB 64GB ZA9L0164VN</name>
+        <price>6.890.000 ₫</price>
+        <tragop>Trả góp 0%</tragop>
+        <ff3>Giảm thêm 999.000 đ khi mua trả góp qua Kredivo</ff3>
+        <image>tablet-22.png</image>
+    </product>
+    <product>
+        <id>23</id>
+        <name>Lenovo Yoga Tab 11</name>
+        <price>Giá liên hệ</price>
+        <tragop>Trả góp 0%</tragop>
+        <ff3>Giảm thêm 200.000 đ khi mua trả góp qua Kredivo</ff3>
+        <image>tablet-23.png</image>
+    </product>
+    <product>
+        <id>24</id>
+        <name>Máy tính bảng Lenovo Tab M10 FHD Plus (ZA5V0362VN)</name>
+        <price>4.790.000₫</price>
+        <tragop>Trả góp 0%</tragop>
+        <ff3>Giảm thêm 500.000 đ khi mua trả góp qua Kredivo</ff3>
+        <image>tablet-24.png</image>
+    </product>
+    
+</products>

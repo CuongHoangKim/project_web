@@ -170,6 +170,22 @@ body{
     width: 100%;
     text-align: center;
 }
+.load-item{
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+.add-new-product{
+    width: 350px;
+    height:40px ;
+    text-align: center;
+    font-size:x-large;
+    border-radius: 10px;
+    margin: auto;
+    background: var(--main-color);
+    color: var(--bg-color);
+    border: none;
+}
 .button-detail-product{
     text-align: center;
     padding: 0.5rem 1.5rem;
