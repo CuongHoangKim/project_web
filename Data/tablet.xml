@@ -1,5 +1,153 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <products>
+    <!-- ipad -->
+    <product>
+        <id>1</id>
+        <name>iPad Pro M1 11 inch 5G</name>
+        <price>41.990.000₫</price>
+        <tragop>Trả góp 0%</tragop>
+        <ff3>Giảm thêm 1000.000 đ khi mua trả góp qua Kredivo</ff3>
+        <image>tablet-1.png</image>
+    </product>
+    <product>
+        <id>2</id>
+        <name>iPad Pro M1 12.9 inch 5G</name>
+        <price>29.290.000₫</price>
+        <tragop>Trả góp 0%</tragop>
+        <ff3>Giảm thêm 1.500.000 đ khi mua trả góp qua Kredivo</ff3>
+        <image>tablet-2.png</image>
+    </product>
+    <product>
+        <id>3</id>
+        <name>iPad Pro M2 11 inch 5G</name>
+        <price>27.990.000₫</price>
+        <tragop>Trả góp 0%</tragop>
+        <ff3>Giảm thêm 500.000 đ khi mua trả góp qua Kredivo</ff3>
+        <image>tablet-3.png</image>
+    </product>
+    <product>
+        <id>4</id>
+        <name>Pad Pro M1 12.9 inch WiFi</name>
+        <price>25.490.000₫</price>
+        <tragop>Trả góp 0%</tragop>
+        <ff3>Giảm thêm 1000.000 đ khi mua trả góp qua Kredivo</ff3>
+        <image>tablet-4.png</image>
+    </product>
+    <product>
+        <id>5</id>
+        <name>iPad Pro M2 11 inch WiFi</name>
+        <price>23.990.000₫</price>
+        <tragop>Trả góp 0%</tragop>
+        <ff3>Giảm thêm 500.000 đ khi mua trả góp qua Kredivo</ff3>
+        <image>tablet-5.png</image>
+    </product>
+    <product>
+        <id>6</id>
+        <name>iPad mini 6 WiFi</name>
+        <price>12.490.000₫</price>
+        <tragop>Trả góp 0%</tragop>
+        <ff3>Giảm thêm 500.000 đ khi mua trả góp qua Kredivo</ff3>
+        <image>tablet-6.png</image>
+    </product>
+    <product>
+        <id>7</id>
+        <name>iPad 10 WiFi 64GB</name>
+        <price>Giá liên hệ</price>
+        <tragop>Trả góp 0%</tragop>
+        <ff3>Giảm thêm xxx đ khi mua trả góp qua Kredivo</ff3>
+        <image>tablet-7.png</image>
+    </product>
+    <product>
+        <id>8</id>
+        <name>iPad 9 4G</name>
+        <price>11.490.000₫</price>
+        <tragop>Trả góp 0%</tragop>
+        <ff3>Giảm thêm xxx đ khi mua trả góp qua Kredivo</ff3>
+        <image>tablet-8.png</image>
+    </product>
+    <!-- samsung -->
+    <product>
+        <id>9</id>
+        <name>Samsung Galaxy Tab S7 FE</name>
+        <price>12.490.000₫</price>
+        <tragop>Trả góp 0%</tragop>
+        <ff3>Giảm thêm 1.000.000 đ khi mua trả góp qua Kredivo</ff3>
+        <image>tablet-9.png</image>
+    </product>
+    <product>
+        <id>10</id>
+        <name>Samsung Galaxy Tab S6 Lite</name>
+        <price>9.990.000 ₫</price>
+        <tragop>Trả góp 0%</tragop>
+        <ff3>Giảm thêm 1.500.000 đ khi mua trả góp qua Kredivo</ff3>
+        <image>tablet-10.png</image>
+    </product>
+    <product>
+        <id>11</id>
+        <name>Samsung Galaxy Tab A8 (2022)</name>
+        <price>7.490.000₫</price>
+        <tragop>Trả góp 0%</tragop>
+        <ff3>Giảm thêm 500.000 đ khi mua trả góp qua Kredivo</ff3>
+        <image>tablet-11.png</image>
+    </product>
+    <product>
+        <id>12</id>
+        <name>Samsung Galaxy Tab S8 5G Series</name>
+        <price>17.990.000₫</price>
+        <tragop>Trả góp 0%</tragop>
+        <ff3>Giảm thêm 1.200.000 đ khi mua trả góp qua Kredivo</ff3>
+        <image>tablet-12.png</image>
+    </product>
+    <!-- xiaomi -->
+    <product>
+        <id>13</id>
+        <name>Xiaomi Pad 5</name>
+        <price>7.590.000 ₫</price>
+        <tragop>Trả góp 0%</tragop>
+        <ff3>Giảm thêm 1000.000 đ khi mua trả góp qua Kredivo</ff3>
+        <image>tablet-13.png</image>
+    </product>
+    <product>
+        <id>14</id>
+        <name>Redmi Pad 3GB 64GB</name>
+        <price>5.790.000 ₫</price>
+        <tragop>Trả góp 0%</tragop>
+        <ff3>Giảm thêm 500.000 đ khi mua trả góp qua Kredivo</ff3>
+        <image>tablet-14.png</image>
+    </product>
+    <product>
+        <id>15</id>
+        <name>Xiaomi Pad 5 (6GB/256GB)</name>
+        <price>8.990.000 ₫</price>
+        <tragop>Trả góp 0%</tragop>
+        <ff3>Giảm thêm 500.000 đ khi mua trả góp qua Kredivo</ff3>
+        <image>tablet-15.png</image>
+    </product>
+    <product>
+        <id>16</id>
+        <name>Xiaomi Pad 6 Pro</name>
+        <price>Giá liên hệ</price>
+        <tragop>Trả góp 0%</tragop>
+        <ff3>Giảm thêm xxx đ khi mua trả góp qua Kredivo</ff3>
+        <image>tablet-16.png</image>
+    </product>
+    <product>
+        <id>17</id>
+        <name>Redmi Writing Pad</name>
+        <price>Giá liên hệ</price>
+        <tragop>Trả góp 0%</tragop>
+        <ff3>Giảm thêm xxx đ khi mua trả góp qua Kredivo</ff3>
+        <image>tablet-17.png</image>
+    </product>
+    <product>
+        <id>18</id>
+        <name>Xiaomi Redmi Pad</name>
+        <price>12.490.000₫</price>
+        <tragop>Trả góp 0%</tragop>
+        <ff3>Giảm thêm 1.000.000 đ khi mua trả góp qua Kredivo</ff3>
+        <image>tablet-18.png</image>
+    </product>
+    <!-- lenovo -->
     <product>
         <id>19</id>
         <name>Máy Tính Bảng Lenovo Tab M8 Gen 2 2GB 32GB</name>
@@ -47,6 +195,31 @@
         <tragop>Trả góp 0%</tragop>
         <ff3>Giảm thêm 500.000 đ khi mua trả góp qua Kredivo</ff3>
         <image>tablet-24.png</image>
+    </product>
+    <!-- nokia -->
+    <product>
+        <id>25</id>
+        <name>Nokia T20</name>
+        <price>4.290.000 ₫</price>
+        <tragop>Trả góp 0%</tragop>
+        <ff3>Giảm thêm 499.000 đ khi mua trả góp qua Kredivo</ff3>
+        <image>tablet-25.png</image>
+    </product>
+    <product>
+        <id>26</id>
+        <name>Nokia T21</name>
+        <price>Giá liên hệ</price>
+        <tragop>Trả góp 0%</tragop>
+        <ff3>Giảm thêm 200.000 đ khi mua trả góp qua Kredivo</ff3>
+        <image>tablet-26.png</image>
+    </product>
+    <product>
+        <id>27</id>
+        <name>Nokia T10</name>
+        <price>4.790.000₫</price>
+        <tragop>Trả góp 0%</tragop>
+        <ff3>Giảm thêm 500.000 đ khi mua trả góp qua Kredivo</ff3>
+        <image>tablet-27.png</image>
     </product>
     
 </products>
