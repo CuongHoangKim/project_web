@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+    <product>
+        <id>1</id>
+        <name>Macbook pro M1 14</name>
+        <price>15.990.000</price>
+        <priceOld>19.990.000</priceOld>
+        <tragop></tragop>
+        <khuyenMai>Tặng bàn phím cơ Gaming Predator Aethon TKL 301</khuyenMai>
+        <image>apple-macbook-pro-14-m1-pro-2021-600x600.jpg</image>
+    </product>
+    <product>
+        <id>2</id>
+        <name>Macbook Air M1</name>
+        <price>22.690.000</price>
+        <priceOld>28.990.000 </priceOld>
+        <tragop></tragop>
+        <khuyenMai>Nhập mã CPSONL500 khi thanh toan VNPAY qua website</khuyenMai>
+        <image>apple-macbook-pro-14-m1-pro-2021-600x600.jpg</image>
+    </product>
+    <product>
+        <id>3</id>
+        <name>Macbook Pro M1 Max</name>
+        <price>18.990.000</price>
+        <priceOld>23.990.000</priceOld>
+        <tragop></tragop>
+        <khuyenMai>Tặng bàn phím cơ Gaming Predator Aethon TKL 301</khuyenMai>
+        <image>apple-macbook-pro-14-m1-pro-2021-600x600.jpg</image>
+    </product>
+    <product>
+        <id>4</id>
+        <name>Macbook pro M2</name>
+        <price>18.990.000</price>
+        <priceOld>23.990.000</priceOld>
+        <tragop></tragop>
+        <khuyenMai>Tặng bàn phím cơ Gaming Predator Aethon TKL 301</khuyenMai>
+        <image>apple-macbook-pro-14-m1-pro-2021-600x600.jpg</image>
+    </product>
+    <product>
+        <id>5</id>
+        <name>Macbook Pro 16 | Chính hãng VN/A</name>
+        <price>36.990.000</price>
+        <priceOld>48.990.000</priceOld>
+        <tragop></tragop>
+        <khuyenMai>Tặng bàn phím cơ Gaming Predator Aethon TKL 301</khuyenMai>
+        <image>apple-macbook-pro-14-m1-pro-2021-600x600.jpg</image>
+    </product>
+    <!-- Macbook -->
+    <product>
+        <id>6</id>
+        <name>Macbook pro M1 14</name>
+        <price>15.990.000</price>
+        <priceOld>19.990.000</priceOld>
+        <tragop></tragop>
+        <khuyenMai>Tặng bàn phím cơ Gaming Predator Aethon TKL 301</khuyenMai>
+        <image>apple-macbook-pro-14-m1-pro-2021-600x600.jpg</image>
+    </product>
+    <product>
+        <id>7</id>
+        <name>Macbook Air M1</name>
+        <price>22.690.000</price>
+        <priceOld>28.990.000 </priceOld>
+        <tragop></tragop>
+        <khuyenMai>Nhập mã CPSONL500 khi thanh toan VNPAY qua website</khuyenMai>
+        <image>apple-macbook-pro-14-m1-pro-2021-600x600.jpg</image>
+    </product>
+    <product>
+        <id>8</id>
+        <name>Macbook Pro M1 Max</name>
+        <price>18.990.000</price>
+        <priceOld>23.990.000</priceOld>
+        <tragop></tragop>
+        <khuyenMai>Tặng bàn phím cơ Gaming Predator Aethon TKL 301</khuyenMai>
+        <image>apple-macbook-pro-14-m1-pro-2021-600x600.jpg</image>
+    </product>
+    <product>
+        <id>9</id>
+        <name>Macbook pro M2</name>
+        <price>18.990.000</price>
+        <priceOld>23.990.000</priceOld>
+        <tragop></tragop>
+        <khuyenMai>Tặng bàn phím cơ Gaming Predator Aethon TKL 301</khuyenMai>
+        <image>apple-macbook-pro-14-m1-pro-2021-600x600.jpg</image>
+    </product>
+    <product>
+        <id>10</id>
+        <name>Macbook Pro 16 | Chính hãng VN/A</name>
+        <price>36.990.000</price>
+        <priceOld>48.990.000</priceOld>
+        <tragop></tragop>
+        <khuyenMai>Tặng bàn phím cơ Gaming Predator Aethon TKL 301</khuyenMai>
+        <image>apple-macbook-pro-14-m1-pro-2021-600x600.jpg</image>
+    </product>
+    <!-- Gaming -->
+    <product>
+        <id>11</id>
+        <name>Macbook pro M1 14</name>
+        <price>15.990.000</price>
+        <priceOld>19.990.000</priceOld>
+        <tragop></tragop>
+        <khuyenMai>Tặng bàn phím cơ Gaming Predator Aethon TKL 301</khuyenMai>
+        <image>apple-macbook-pro-14-m1-pro-2021-600x600.jpg</image>
+    </product>
+    <product>
+        <id>12</id>
+        <name>HP Pavilon 14</name>
+        <price>22.690.000</price>
+        <priceOld>28.990.000 </priceOld>
+        <tragop></tragop>
+        <khuyenMai>Nhập mã CPSONL500 khi thanh toan VNPAY qua website</khuyenMai>
+        <image>hp-pavilion-14-dv0516tu-i3-win11-46l88pa-thumb-600x600.jpg</image>
+    </product>
+    <product>
+        <id>13</id>
+        <name>Laptop Gaming Acer Nitro An 515 45 R6EV</name>
+        <price>18.990.000</price>
+        <priceOld>23.990.000</priceOld>
+        <tragop></tragop>
+        <khuyenMai>Tặng bàn phím cơ Gaming Predator Aethon TKL 301</khuyenMai>
+        <image>dell-gaming-g15-5515-r5-p105f004dgr-291121-114930-600x600.jpg</image>
+    </product>
+    <product>
+        <id>14</id>
+        <name>Laptop ASUS VivoBook A5</name>
+        <price>18.990.000</price>
+        <priceOld>23.990.000</priceOld>
+        <tragop></tragop>
+        <khuyenMai>Tặng bàn phím cơ Gaming Predator Aethon TKL 301</khuyenMai>
+        <image>asus-zenbook-ux325ea-i7-1165g7-16gb-512gb-600x600.jpg</image>
+    </product>
+    <product>
+        <id>15</id>
+        <name>Dell G15 gaming | Chính hãng VN/A</name>
+        <price>36.990.000</price>
+        <priceOld>48.990.000</priceOld>
+        <tragop></tragop>
+        <khuyenMai>Tặng bàn phím cơ Gaming Predator Aethon TKL 301</khuyenMai>
+        <image>dell-gaming-g15-5515-r5-p105f004dgr-291121-114930-600x600.jpg</image>
+    </product>
+    <!-- office -->
+    <product>
+        <id>16</id>
+        <name>Macbook pro M1 14</name>
+        <price>15.990.000</price>
+        <priceOld>19.990.000</priceOld>
+        <tragop></tragop>
+        <khuyenMai>Tặng bàn phím cơ Gaming Predator Aethon TKL 301</khuyenMai>
+        <image>apple-macbook-pro-14-m1-pro-2021-600x600.jpg</image>
+    </product>
+    <product>
+        <id>17</id>
+        <name>HP Pavilon 14</name>
+        <price>22.690.000</price>
+        <priceOld>28.990.000 </priceOld>
+        <tragop></tragop>
+        <khuyenMai>Nhập mã CPSONL500 khi thanh toan VNPAY qua website</khuyenMai>
+        <image>hp-pavilion-14-dv0516tu-i3-win11-46l88pa-thumb-600x600.jpg</image>
+    </product>
+    <product>
+        <id>18</id>
+        <name>Laptop Gaming Acer Nitro An 515 45 R6EV</name>
+        <price>18.990.000</price>
+        <priceOld>23.990.000</priceOld>
+        <tragop></tragop>
+        <khuyenMai>Tặng bàn phím cơ Gaming Predator Aethon TKL 301</khuyenMai>
+        <image>dell-gaming-g15-5515-r5-p105f004dgr-291121-114930-600x600.jpg</image>
+    </product>
+    <product>
+        <id>19</id>
+        <name>Laptop ASUS VivoBook A5</name>
+        <price>18.990.000</price>
+        <priceOld>23.990.000</priceOld>
+        <tragop></tragop>
+        <khuyenMai>Tặng bàn phím cơ Gaming Predator Aethon TKL 301</khuyenMai>
+        <image>asus-zenbook-ux325ea-i7-1165g7-16gb-512gb-600x600.jpg</image>
+    </product>
+    <product>
+        <id>20</id>
+        <name>Dell G15 gaming | Chính hãng VN/A</name>
+        <price>36.990.000</price>
+        <priceOld>48.990.000</priceOld>
+        <tragop></tragop>
+        <khuyenMai>Tặng bàn phím cơ Gaming Predator Aethon TKL 301</khuyenMai>
+        <image>dell-gaming-g15-5515-r5-p105f004dgr-291121-114930-600x600.jpg</image>
+    </product>
+</products>
