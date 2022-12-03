@@ -16,6 +16,7 @@ window.addEventListener("load",
     };
     xhr.send();
   },false);
+  //========== Noi Bac===========//
   function updateUI_laptop(xhr) {
     let doc = xhr.responseXML;
     let productElements = doc.getElementsByTagName("product");

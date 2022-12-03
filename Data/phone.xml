@@ -2,10 +2,114 @@
 <products>
     <product>
         <id></id>
-        <name></name>
-        <price></price>
+        <name>Iphone 13 pro max</name>
+        <price>27.990.000đ</price>
         <tragop></tragop>
         <khuyenMai></khuyenMai>
-        <image></image>
-    </product>lk
+        <image>iphone-13-pro-max-xanh-la-thumb-600x600.jpg</image>
+    </product>
+    <product>
+        <id>2</id>
+        <name>Iphone 13 pro max</name>
+        <price>27.990.000đ</price>
+        <tragop></tragop>
+        <khuyenMai></khuyenMai>
+        <image>iphone-13-pro-max-xanh-la-thumb-600x600.jpg</image>
+    </product>
+    <product>
+        <id>3</id>
+        <name>Iphone 13 pro max</name>
+        <price>27.990.000đ</price>
+        <tragop></tragop>
+        <khuyenMai></khuyenMai>
+        <image>iphone-13-pro-max-xanh-la-thumb-600x600.jpg</image>
+    </product>
+    <product>
+        <id>4</id>
+        <name>Iphone 13 pro max</name>
+        <price>27.990.000đ</price>
+        <tragop></tragop>
+        <khuyenMai></khuyenMai>
+        <image>iphone-13-pro-max-xanh-la-thumb-600x600.jpg</image>
+    </product>
+    <product>
+        <id>5</id>
+        <name>Iphone 13 pro max</name>
+        <price>27.990.000đ</price>
+        <tragop></tragop>
+        <khuyenMai></khuyenMai>
+        <image>iphone-13-pro-max-xanh-la-thumb-600x600.jpg</image>
+    </product>
+    <product>
+        <id>6</id>
+        <name>Iphone 13 pro max</name>
+        <price>27.990.000đ</price>
+        <tragop></tragop>
+        <khuyenMai></khuyenMai>
+        <image>iphone-13-pro-max-xanh-la-thumb-600x600.jpg</image>
+    </product>
+    <product>
+        <id>7</id>
+        <name>Iphone 13 pro max</name>
+        <price>27.990.000đ</price>
+        <tragop></tragop>
+        <khuyenMai></khuyenMai>
+        <image>iphone-13-pro-max-xanh-la-thumb-600x600.jpg</image>
+    </product>
+    <product>
+        <id>8</id>
+        <name>Iphone 13 pro max</name>
+        <price>27.990.000đ</price>
+        <tragop></tragop>
+        <khuyenMai></khuyenMai>
+        <image>iphone-13-pro-max-xanh-la-thumb-600x600.jpg</image>
+    </product>
+    <product>
+        <id>9</id>
+        <name>Iphone 13 pro max</name>
+        <price>27.990.000đ</price>
+        <tragop></tragop>
+        <khuyenMai></khuyenMai>
+        <image>iphone-13-pro-max-xanh-la-thumb-600x600.jpg</image>
+    </product>
+    <product>
+        <id>10</id>
+        <name>Iphone 13 pro max</name>
+        <price>27.990.000đ</price>
+        <tragop></tragop>
+        <khuyenMai></khuyenMai>
+        <image>iphone-13-pro-max-xanh-la-thumb-600x600.jpg</image>
+    </product>
+    <product>
+        <id>11</id>
+        <name>Iphone 13 pro max</name>
+        <price>27.990.000đ</price>
+        <tragop></tragop>
+        <khuyenMai></khuyenMai>
+        <image>iphone-13-pro-max-xanh-la-thumb-600x600.jpg</image>
+    </product>
+    <product>
+        <id>12</id>
+        <name>Iphone 13 pro max</name>
+        <price>27.990.000đ</price>
+        <tragop></tragop>
+        <khuyenMai></khuyenMai>
+        <image>iphone-13-pro-max-xanh-la-thumb-600x600.jpg</image>
+    </product>
+    <product>
+        <id>13</id>
+        <name>Iphone 13 pro max</name>
+        <price>27.990.000đ</price>
+        <tragop></tragop>
+        <khuyenMai></khuyenMai>
+        <image>iphone-13-pro-max-xanh-la-thumb-600x600.jpg</image>
+    </product>
+    <product>
+        <id>14</id>
+        <name>Iphone 13 pro max</name>
+        <price>27.990.000đ</price>
+        <tragop></tragop>
+        <khuyenMai></khuyenMai>
+        <image>iphone-13-pro-max-xanh-la-thumb-600x600.jpg</image>
+    </product>
 </products>
