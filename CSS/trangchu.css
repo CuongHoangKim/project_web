@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family:Arial, Helvetica, sans-serif;
 }
@@ -70,7 +74,11 @@ body{
     margin-top: 15px;
     margin-left: 50px;
 }
-
+#menu-button-open,#menu-button-close{
+   display: none;
+}
+.mobile-menu{display: none;}
+.cover{display: none;}
 .navbar--menu{
     width: 100%;
     height: 40px;
@@ -97,17 +105,6 @@ th{
 .advertisement{
     display: flex;
 }
-/* .bang2{
-    border: 1px brown black;
-}
-.left{
-    margin-left: 200px;
-}
-table, tr {
-    border: 1px solid black;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-} */
 .menu--product--left{
     border: 1px solid black;
     border-radius: 10px;
@@ -199,6 +196,7 @@ table, tr {
 }
 
 .title--product--1{
+    justify-content: space-between;
     display: flex;
     margin-top: -120px;
 }
@@ -215,7 +213,7 @@ table, tr {
     margin-top: 10px;
     border: 1px solid black;
     border-radius: 5px;
-    width: 1160px;
+    width: 100%;
     margin-left: 20px;
     height: 400px;
 }
@@ -363,7 +361,7 @@ table, tr {
 /* mobile device */
 @media screen and (max-width: 480px){
     .image--qc img{
-        width: 100%;
+        display: none;
         
     }
     .navbar--logo{
@@ -371,9 +369,8 @@ table, tr {
         height: 45px;
         background-color: #f50000;
         position: fixed;
-        margin-top: 56px;
+        margin-top: 0px;
         display: flex;
-        
     }
     .navbar--logo img{
         padding-top: 10px;
@@ -427,19 +424,75 @@ table, tr {
         display: none;
         /* margin-left: 50px; */
     }
-    #menu-button{
+
+    #menu-button-open,#menu-button-close{
         position: absolute;
         display: block;
-        width: 35px;
-        height: 35px;
+        width: 30px;
+        height: 30px;
         margin-left: 60px;
         padding-top: 5px;
     }
+    #menu-button-close{
+        top: 5px;
+        right: 5px;
+    }
+    .mobile-menu{
+        display: block;
+        background: #f1f1f1;
+        position: fixed;
+        padding-top: 30px;
+        padding-left: 40px;
+        top: 0;
+        right: -200%;
+        width: 250px;
+        height: 95%;
+        border: 2px 2px 2px 4px rgba(0, 0, 0, );
+        box-shadow: 0px 0px 0px 180px rgba(0, 0, 0, 0.4);
+        transition: 0.4s;
+        border-radius: 0 0 0 20px;
+    }
+    .mobile-menu ul{
+        margin-top: 30px;
+    }
+    .mobile-menu ul li{
+        list-style: none;
+        padding-inline-start: 5px;
+        padding-inline-end: 5px;
+        display: block;
+        color: black;
+        padding-bottom: 10px;
+    }
+    .mobile-menu ul li a{
+        text-decoration: none;
+    }
+    .login{
+        width: 180px;
+        height: 30px;
+        background: #f50000;
+        color: #fff;
+        text-align: center;
+        padding: 10px 5px 0px 5px;
+    }
+    .register{
+        margin-top: 20px;
+        padding: 10px 5px 0px 5px;
+        width: 180px;
+        height: 30px;
+        background:#000;
+        color: #fff;
+        text-align: center;
+    }
+    .mobile-menu.active{
+        right: 0;
+    }
+    .mobile-menu.active-close{
+        right: -100%;
+    }
     .table--menu{
         display: none;
-        width: 100%;
-        padding-top: 10px;
     }
+
     .menu--product--left{
         border: 1px solid black;
         border-radius: 10px;
@@ -451,51 +504,18 @@ table, tr {
         margin-bottom: 200px;
         padding-bottom: 0px;
     }
-    #menu ul{
-        /* float: left; */
-        list-style: none;
-        padding-inline-start: 5px;
-        padding-inline-end: 0px;
-        display: block;
-    }
-    
-    #menu ul li a{
-        display: block;
-        color: black;
-        font-weight: bold;
-        text-decoration: none;
-        padding: 0.3cm 6px;
-    }
-    #menu li a:hover{
-        color: white;
-        background: orange;
-    }
-    #menu li ul{
-        position: absolute;
-        display: none;
-        width: 200px;
-        left: 225px;
-        margin-top: -41px;
-        background-color: white;
-        /* transition: 1S ease; */
-    }
-    #menu li:hover ul{
-        display: block;
-    }
-    #menu ul li ul li {
-        width:100% ;
-        border: 1px solid rgb(96, 99, 96);
-    }
-    
     .g1{
         border-bottom: 1px solid rgb(174, 174, 174);
     }
+    .navbar--menu{
+        display: none;
+    }
     #slide--show {
         overflow: hidden;
-        height: 150px;
+        height: 170px;
         width: 100%;
         /* margin: 0 auto; */
-        margin-top: 15px;
+        margin-top:50px;
         border: 1px solid black;
         border-radius: 10px;
         margin-left: -200px;
@@ -506,8 +526,11 @@ table, tr {
     }
     .slide {
         float: left;
-        height: 330px;
-        width: 728px;
+        height: 170px;
+    }
+    .slide img{
+        width: 380px;
+        height: 200px;
     }
     @-webkit-keyframes slide {
         20% {margin-left: 0px;}
@@ -516,19 +539,42 @@ table, tr {
         60% {margin-left: -1456px;}
         80% {margin-left: -1456px;}
     }
-    .QC--right--1{
+    .QC--right{
         display: none;
-        margin-top: 15px;
-        margin-left: 20px;
-        border-radius: 10px;
-    }
-    .QC--right--2{
-        display: none;
-        margin-top: 15px;
-        margin-left: 20px;
-        border-radius: 10px;
     }
     
+    .khung--product {
+        display: flex;
+        margin-top: 30px;
+        border: 1px solid black;
+        border-radius: 5px;
+        width: 1160px;
+        margin-left: 20px;
+        height: 400px;
+    }
+    .title-1-1 {
+        margin-left: 20px;
+        font-size: small;
+    }
+    .title--product--1{
+        margin-top: 0px;
+    }
+    .khung--footer{
+        display: inline;
+        width: 100%;
+    }
+    .khung--footer--left{
+        width: 99%;
+    }
+    .khung--footer--center--left{
+        width: 99%;
+    }
+    .khung--footer--center--right{
+        width: 99%;
+    }
+    .khung--footer--right{
+        width: 99%;
+    }
 }
 
 
