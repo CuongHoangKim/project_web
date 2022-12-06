@@ -37,6 +37,7 @@ function updateUI(xhr) {
       html+="<img src='./ImageTablet/";
           html+=productElements[i].getElementsByTagName("image")[0].childNodes[0].nodeValue;
           html+="' alt='' class='img-products'>";
+          html+="</br>";
           html +="<span class='badge'>"+
               productElements[i].getElementsByTagName("tragop")[0].childNodes[0].nodeValue + "</span>";
           html +="<h2 class='product-title'>"+
@@ -60,6 +61,7 @@ function updateUINext(xhr) {
       html+="<img src='./ImageTablet/";
           html+=productElements[i].getElementsByTagName("image")[0].childNodes[0].nodeValue;
           html+="' alt='' class='img-products'>";
+          html+="</br>";
           html +="<span class='badge'>"+
               productElements[i].getElementsByTagName("tragop")[0].childNodes[0].nodeValue + "</span>";
           html +="<h2 class='product-title'>"+
@@ -102,6 +104,7 @@ function updateUINext(xhr) {
         html+="<img src='./ImageTablet/";
             html+=productElements[i].getElementsByTagName("image")[0].childNodes[0].nodeValue;
             html+="' alt='' class='img-products'>";
+            html+="</br>";
             html +="<span class='badge'>"+
                 productElements[i].getElementsByTagName("tragop")[0].childNodes[0].nodeValue + "</span>";
             html +="<h2 class='product-title'>"+
@@ -140,6 +143,7 @@ function updateUI_samsung(xhr) {
       html+="<img src='./ImageTablet/";
           html+=productElements[i].getElementsByTagName("image")[0].childNodes[0].nodeValue;
           html+="' alt='' class='img-products'>";
+          html+="</br>";
           html +="<span class='badge'>"+
               productElements[i].getElementsByTagName("tragop")[0].childNodes[0].nodeValue + "</span>";
           html +="<h2 class='product-title'>"+
@@ -178,6 +182,7 @@ function updateUI_xiaomi(xhr) {
       html+="<img src='./ImageTablet/";
           html+=productElements[i].getElementsByTagName("image")[0].childNodes[0].nodeValue;
           html+="' alt='' class='img-products'>";
+          html+="</br>";
           html +="<span class='badge'>"+
               productElements[i].getElementsByTagName("tragop")[0].childNodes[0].nodeValue + "</span>";
           html +="<h2 class='product-title'>"+
@@ -216,6 +221,7 @@ function updateUI_lenovo(xhr) {
       html+="<img src='./ImageTablet/";
           html+=productElements[i].getElementsByTagName("image")[0].childNodes[0].nodeValue;
           html+="' alt='' class='img-products'>";
+          html+="</br>";
           html +="<span class='badge'>"+
               productElements[i].getElementsByTagName("tragop")[0].childNodes[0].nodeValue + "</span>";
           html +="<h2 class='product-title'>"+
@@ -254,6 +260,7 @@ function updateUI_nokia(xhr) {
       html+="<img src='./ImageTablet/";
           html+=productElements[i].getElementsByTagName("image")[0].childNodes[0].nodeValue;
           html+="' alt='' class='img-products'>";
+          html+="</br>";
           html +="<span class='badge'>"+
               productElements[i].getElementsByTagName("tragop")[0].childNodes[0].nodeValue + "</span>";
           html +="<h2 class='product-title'>"+

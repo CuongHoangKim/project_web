@@ -109,11 +109,10 @@ th{
     border: 1px solid black;
     border-radius: 10px;
     min-width: 200px;
-    height: 280px;
-    margin-top: 10px;
+    /* height: 280px; */
+    margin-top: 15px;
     margin-left: 20px;
     margin-right: 20px;
-    margin-bottom: 200px;
     padding-bottom: 0px;
 }
 #menu ul{
@@ -184,59 +183,41 @@ th{
 }
 
 
-.QC--right--1{
+.QC--right--1,.QC--right--2{
     margin-top: 15px;
     margin-left: 20px;
     border-radius: 10px;
 }
-.QC--right--2{
-    margin-top: 15px;
-    margin-left: 20px;
-    border-radius: 10px;
+.product--1,.product--2,.product--3,.product--4,.product--5{
+    margin: 10px;
+    width: 232px;
 }
-
-.title--product--1{
-    justify-content: space-between;
-    display: flex;
-    margin-top: -120px;
-}
-.title-1-1{
+.title-1-1,.title-2-1,.title-3-1,.title-4-1,.title-5-1{
     margin-left: 20px;
     font-size: larger;
 }
-.title-1-2{
-    margin-left: 710px;
+.title-1-2,.title-2-2,.title-3-2,.title-4-2,.title-5-2{
+    margin-right: 20px;
     font-size: medium;
+}
+.title--product--1,.title--product--2,.title--product--3,.title--product--4,.title--product--5{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.thb2--1,.thb2--2,.thb2--3{
+    border-right: 1px solid gray;
 }
 .khung--product{
     display: flex;
     margin-top: 10px;
     border: 1px solid black;
     border-radius: 5px;
-    width: 100%;
+    width: 98%;
     margin-left: 20px;
     height: 400px;
 }
-.product--1{
-    margin: 10px;
-    width: 232px;
-}
-.product--2{
-    margin: 10px;
-    width: 232px;
-}
-.product--3{
-    margin: 10px;
-    width: 232px;
-}
-.product--4{
-    margin: 10px;
-    width: 232px;
-}
-.product--5{
-    margin: 10px;
-    width: 232px;
-}
+
 .f2{
     margin-top: -170px;
 }
@@ -257,101 +238,34 @@ th{
 .ff3{
     color: rgb(75, 98, 215);
 }
-.thb2--1{
-    border-right: 1px solid gray;
-}
-.thb2--2{
-    border-right: 1px solid gray;
-}
-.thb2--3{
-    border-right: 1px solid gray;
-}
 
-
-.title--product--2{
-    margin-top: 20px;
-    display: flex;
-}
-.title-2-1{
-    margin-left: 20px;
-    font-size: larger;
-}
-.title-2-2{
-    margin-left: 890px;
-    font-size: medium;
-}
-.title--product--3{
-    margin-top: 20px;
-    display: flex;
-}
-.title-3-1{
-    margin-left: 20px;
-    font-size: larger;
-}
-.title-3-2{
-    margin-left: 890px;
-    font-size: medium;
-}
 .khung--product--4{
     display: flex;
     margin-top: 10px;
     border: 1px solid black;
     border-radius: 5px;
-    width: 1160px;
+    width: 98%;
     margin-left: 20px;
     height: 350px;
-}
-.title--product--4{
-    margin-top: 20px;
-    display: flex;
-}
-.title-4-1{
-    margin-left: 20px;
-    font-size: larger;
-}
-.title-4-2{
-    margin-left: 890px;
-    font-size: medium;
 }
 .khung--product--5{
     margin-top: 10px;
     display: flex;
-    width: 1160px;
+    width: 98%;
     margin-left: 20px;
+    margin-right: 20px;
     height: 250px;
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 .c1{
     width: 145px;
 }
-.title--product--5{
-    margin-top: 20px;
-    display: flex;
-}
-.title-5-1{
-    margin-left: 20px;
-    font-size: larger;
-}
-.title-5-2{
-    margin-left: 580px;
-    font-size: medium;
-}
-
 .khung--footer{
     display: flex;
     width: 100%;
 }
-.khung--footer--left{
-    width: 25%;
-}
-.khung--footer--center--left{
-    width: 25%;
-}
-.khung--footer--center--right{
-    width: 25%;
-}
-.khung--footer--right{
+.khung--footer--left,.khung--footer--center--left,.khung--footer--center--right,.khung--footer--right{
     width: 25%;
 }
 .menu-button{
@@ -390,7 +304,6 @@ th{
         border-bottom-left-radius: 5px;
         margin-left: -10px;
     }
-
     .btn--search{
         float: right;
         width: 30px;
@@ -404,8 +317,6 @@ th{
         border-bottom-right-radius: 5px;
         margin-bottom: 20px;
     }
-    
-
     #giohang--logo{
         margin-top: 10px;
         margin-left: 30px;
@@ -532,13 +443,6 @@ th{
         width: 380px;
         height: 200px;
     }
-    @-webkit-keyframes slide {
-        20% {margin-left: 0px;}
-        30% {margin-left: -728px;}
-        50% {margin-left: -728px;}
-        60% {margin-left: -1456px;}
-        80% {margin-left: -1456px;}
-    }
     .QC--right{
         display: none;
     }
@@ -552,28 +456,14 @@ th{
         margin-left: 20px;
         height: 400px;
     }
-    .title-1-1 {
-        margin-left: 20px;
-        font-size: small;
-    }
-    .title--product--1{
-        margin-top: 0px;
-    }
+    .title-1-1,.title-1-2{font-size: small;}
     .khung--footer{
         display: inline;
         width: 100%;
     }
-    .khung--footer--left{
+    .khung--footer--left,.khung--footer--center--left,.khung--footer--center--right,.khung--footer--right{
         width: 99%;
-    }
-    .khung--footer--center--left{
-        width: 99%;
-    }
-    .khung--footer--center--right{
-        width: 99%;
-    }
-    .khung--footer--right{
-        width: 99%;
+        padding: 1rem;
     }
 }
 

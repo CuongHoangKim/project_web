@@ -1,6 +1,8 @@
 body{
     font-family:Arial, Helvetica, sans-serif;
 }
+
+
 :root{
     --main-color:#f50000 ;
     --text-color:#171427 ;
@@ -300,9 +302,101 @@ body{
         border-bottom-left-radius: 3px;
         margin-left: -10px;
     }
-    .shop-content{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(100px,auto));
-        gap: 0.5rem;
+    .navbar--logo {
+        margin-top: 0px;
+        margin-left: 0;
     }
-  }
+    
+    .product-box img{
+    margin-left: 30px;
+    }
+    /* ====== */
+    .navbar--logo{
+        width: 100%;
+        height: 45px;
+        background-color: #f50000;
+        position: fixed;
+        margin-top: 0px;
+        display: flex;
+    }
+    .navbar--logo img{
+        padding-top: 10px;
+        width: 100px;
+        height: 26px;
+    }
+    .khung--search{
+        margin-top: 10px;
+        margin-left: 10px;
+        display: flex;
+    }
+    .input--timsanpham{
+        width: 120px;
+        height: 20px;
+        border:2px solid rgba(255, 255, 255, 0);
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        margin-left: -10px;
+    }
+
+    .btn--search{
+        float: right;
+        width: 30px;
+        height: 26px;
+        background: #484848;
+        color: white;
+        /* border: 1px solid grey; */
+        border-left: none;
+        cursor: pointer;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        margin-bottom: 20px;
+    }
+    
+
+    #giohang--logo{
+        margin-top: 10px;
+        margin-left: 30px;
+        font-size:25px;
+        color: white;
+    }
+    .tablet {
+        margin-top: 40px;
+    }
+    .giohang--title{
+        display: none;
+    }
+    .sdt--muahang{
+       display: none;
+    }
+    .btn--login{
+        width: 30px;
+        margin-top: 15px;
+        display: none;
+        /* margin-left: 50px; */
+    }
+    .title-1-1 {
+        margin-left: 20px;
+        font-size: small;
+    }
+    .title--product--1{
+        margin-top: 0px;
+    }
+    .khung--footer{
+        display: inline;
+        width: 100%;
+    }
+    .khung--footer--left{
+        width: 99%;
+    }
+    .khung--footer--center--left{
+        width: 99%;
+    }
+    .khung--footer--center--right{
+        width: 99%;
+    }
+    .khung--footer--right{
+        width: 99%;
+    }
+
+ }
+  
