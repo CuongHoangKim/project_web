@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Điện thoại</title>
-    <link rel="stylesheet" href="./CSS/phone.css">
-    <link rel="stylesheet" href="./CSS/laptop.css">
+    <title>Vietsmart</title>
+    <link rel="stylesheet" href="./CSS/map.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="image--qc">
-        <img src="./Image/qctren.webp" alt="" width="100%" height="100%" class="a1">
+        <img src="./Image/qctren.webp" alt="" width="100%" height="60px" class="a1">
     </div>
     <div class="navbar--logo">
-        <a href="./trangchu.html"><img src="./Image/logo.png" alt="" width="250px" height="65px" ></a>
+        <a href="./trangchu.html">
+        <img src="./Image/logo.png" alt="logo" width="250px" height="65px"></a>
         <div class="khung--search">
             <div>
                 <input id="search" type="text" placeholder="Bạn cần tìm gì..." autocomplete="off" value="" class="input--timsanpham">
@@ -24,9 +25,9 @@
                 <button type="submit" class="btn--search"><i class="fa fa-search" style="font-size:20px;color: white;"></i></button>
             </div>
         </div>
-        <a href="./giohang.html"style="text-decoration:none">
+        <a href="./giohang.html" style="text-decoration: none;">
         <div class="giohang">
-            <i class="fa fa-shopping-cart" id="giohang--logo" style="font-size:48px;color: white;"></i>
+            <i class="fa fa-shopping-cart" id="giohang--logo"></i>
             <p class="giohang--title"><b>Giỏ hàng</b></p>
         </div></a>
         <div class="sdt--muahang">
@@ -34,44 +35,29 @@
             <b>093 394 2452</b> <br>
             <b>Gọi mua hàng</b>
         </div>
-        <div class="button-login">
-            <button type="text" class="btn--login"><b>Đăng nhập/Đăng ký</b></button>
+        <div class="dinhvi">
+            <!-- <button type="text" class="btn--login"><b>Đăng nhập/Đăng ký</b></button> -->
+            <i class="fa fa-map-marker" id="dinhvi--logo"></i> <br>
+            <p class="dinhvi--title"><b>Cửa hàng gần nhất</b></p>
+        </div>
+
+    </div>
+    <div class="tablet">
+        <div class="nav-re-home">
+            &nbsp; &nbsp; &nbsp;
+            <div><i class="fa fa-home" style="color: red; font-size: 25px" id="home--icon"></i></div>
+            <div class="dd"><a href="./trangchu.html"> &nbsp; <span class="dd">Home</span></a> <span><b>  > </b></span>
+                <span class="dd">Cửa hàng gần nhất</span></div>
+        </div>
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7838.684254869503!2d106.70676642475235!3d10.785086936675276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1547181657956" width="600" height="450" frameborder="0" style="border:0" allowfullscreen class="map"></iframe>
         </div>
         
     </div>
-    <div class="navbar--menu">
-        <table class="table--menu">
-            <div>
-                <a href="./trangchu.html"><i class="fa fa-home" id="home--logo" style="font-size:36px;color: rgb(178, 24, 24);"></i></a>
-                <th class="font--1" ><B>Trang chủ->Điện thoại</B></th>
-            </div>
-            <!-- <th class="font--1"><B>Trang chủ->Laptop</B></th> -->
-            <th class="font--2">Trả góp Online tại nhà</th>
-            <th class="font--2">Thu cũ đổi mới</th>
-            <th class="font--2">Dịch vụ bảo hành</th>
-        </table>
-    </div>
-    <img src="./Image/qc-iphone.gif" width=100%>
-    <div class="logolap">
-        <img src="./Image/logo-iphone-220x48.png" alt="">
-        <img src="./Image/logo-OPPO42-b_5.jpg" alt="">
-        <img src="./Image/logosamsungnew-220x48-1.png" alt="">
-        <img src="./Image/logo-xiaomi-220x48-5.png" alt="">
-        <img src="./Image/Nokia42-b_21.jpg" alt="">
-        <img src="./Image/Realme42-b_37.png" alt="">
-        <img src="./Image/vivo-logo-220-220x48-3.png" alt="">
-    </div>
-    <div class="shop-content" id="shop-content"></div>
-    <div class="load-item"><button class="add-new-product" id="add-new-product"onclick="addNewProduct()">xem thêm sản phẩm
-    </button></div>
-    <!-- <div >
-        <button class="button"id="add-new-product" onclick="addNewProduct()">XEM THÊM ĐIỆN THOẠI</button>
-    </div> -->
-    <script src="./JS/phone.js"></script>
+    <br><br>
+    <hr class="k1">
 </body>
 <footer>
-    <br>
-    <hr>
     <div class="khung--footer">
 		<div class="khung--footer--left">
             <div class="title--footer--1"><B>HƯỚNG DẪN - CHÍNH SÁCH</B></div>
@@ -148,4 +134,5 @@
 
 
 </footer>
+
 </html>

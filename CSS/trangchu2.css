@@ -1,0 +1,798 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.image--qc{
+    position: fixed;
+    margin-top: -123.5px;
+}
+.navbar--logo{
+    width: 100%;
+    height: 65px;
+    background-color: #f50000;
+    position: fixed;
+    top: 0;
+    margin-top: 56px;
+    display: flex;
+}
+.khung--search{
+    margin-top: 10px;
+    margin-left: 50px;
+    display: flex;
+}
+.input--timsanpham{
+    width: 300px;
+    height: 39px;
+    border:2px solid rgba(255, 255, 255, 0);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-left: -10px;
+}
+/* .input--timkiem{
+    width: 80px;
+    height: 45px;
+} */
+.btn--search{
+    float: left;
+    width: 80px;
+    height: 46px;
+    background: #484848;
+    color: white;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.giohang{
+    display: flex;
+}
+#giohang--logo{
+    margin-top: 8px;
+    margin-left: 50px;
+    font-size:48px;
+    color: white;
+}
+.giohang--title{
+    color: #f1f1f1;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.sdt--muahang{
+    margin-top: 10px;
+    margin-left: 30px;
+    color: #f1f1f1;
+    width: fit-content;
+}
+.btn--login{
+    width: 100px;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+.navbar--menu{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(212, 211, 211);
+    top: 0;
+    margin-top: 121.5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.table--menu{
+    width: 100%;
+    padding-top: 10px;
+}
+th{
+    width: 25%;
+    font-weight: normal;
+}
+.font--1{
+    color: black;
+}
+.font--2{
+    color: rgb(231, 2, 2);
+}
+.advertisement{
+    display: flex;
+}
+/* .bang2{
+    border: 1px brown black;
+}
+.left{
+    margin-left: 200px;
+}
+table, tr {
+    border: 1px solid black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+} */
+.menu--product--left{
+    border: 1px solid black;
+    border-radius: 10px;
+    min-width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 200px;
+    padding-bottom: 0px;
+}
+#menu ul{
+    /* float: left; */
+    list-style: none;
+    padding-inline-start: 5px;
+    padding-inline-end: 0px;
+    display: block;
+}
+
+#menu ul li a{
+    display: block;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0.3cm 6px;
+}
+#menu li a:hover{
+    color: white;
+    background: orange;
+}
+#menu li ul{
+    position: absolute;
+    display: none;
+    width: 200px;
+    left: 225px;
+    margin-top: -41px;
+    background-color: white;
+    /* transition: 1S ease; */
+}
+#menu li:hover ul{
+    display: block;
+}
+#menu ul li ul li {
+    width:100% ;
+    border: 1px solid rgb(96, 99, 96);
+}
+
+.g1{
+    border-bottom: 1px solid rgb(174, 174, 174);
+}
+
+#slide--show {
+    overflow: hidden;
+    height: 330px;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.slide-wrapper {
+    width: 2912px;
+    -webkit-animation: slide 14s ease infinite;
+}
+.slide {
+    float: left;
+    height: 330px;
+    width: 728px;
+}
+@-webkit-keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -728px;}
+    50% {margin-left: -728px;}
+    60% {margin-left: -1456px;}
+    80% {margin-left: -1456px;}
+}
+
+
+.QC--right--1{
+    margin-top: 15px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.QC--right--2{
+    margin-top: 15px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.title--product--1{
+    display: flex;
+    margin-top: -120px;
+}
+.title-1-1{
+    margin-left: 20px;
+    font-size: larger;
+}
+.title-1-2{
+    margin-left: 710px;
+    font-size: medium;
+}
+.khung--product{
+    display: flex;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 1160px;
+    margin-left: 20px;
+    height: 400px;
+}
+.product--1{
+    margin: 10px;
+    width: 232px;
+}
+.product--2{
+    margin: 10px;
+    width: 232px;
+}
+.product--3{
+    margin: 10px;
+    width: 232px;
+}
+.product--4{
+    margin: 10px;
+    width: 232px;
+}
+.product--5{
+    margin: 10px;
+    width: 232px;
+}
+.f2{
+    margin-top: -170px;
+}
+
+.f3{
+    color: #f50000;
+}
+.v1{
+    border-left: 3px solid rgb(255, 123, 0);
+    padding-left: 10px;
+}
+.ff1{
+    color: #f50000;
+}
+.ff2{
+    color: #9b9b9b;
+}
+.ff3{
+    color: rgb(75, 98, 215);
+}
+.thb2--1{
+    border-right: 1px solid gray;
+}
+.thb2--2{
+    border-right: 1px solid gray;
+}
+.thb2--3{
+    border-right: 1px solid gray;
+}
+
+
+.title--product--2{
+    margin-top: 20px;
+    display: flex;
+}
+.title-2-1{
+    margin-left: 20px;
+    font-size: larger;
+}
+.title-2-2{
+    margin-left: 890px;
+    font-size: medium;
+}
+.title--product--3{
+    margin-top: 20px;
+    display: flex;
+}
+.title-3-1{
+    margin-left: 20px;
+    font-size: larger;
+}
+.title-3-2{
+    margin-left: 890px;
+    font-size: medium;
+}
+.khung--product--4{
+    display: flex;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 1160px;
+    margin-left: 20px;
+    height: 350px;
+}
+.title--product--4{
+    margin-top: 20px;
+    display: flex;
+}
+.title-4-1{
+    margin-left: 20px;
+    font-size: larger;
+}
+.title-4-2{
+    margin-left: 890px;
+    font-size: medium;
+}
+.khung--product--5{
+    margin-top: 10px;
+    display: flex;
+    width: 1160px;
+    margin-left: 20px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.c1{
+    width: 145px;
+}
+.title--product--5{
+    margin-top: 20px;
+    display: flex;
+}
+.title-5-1{
+    margin-left: 20px;
+    font-size: larger;
+}
+.title-5-2{
+    margin-left: 580px;
+    font-size: medium;
+}
+
+.khung--footer{
+    display: flex;
+    width: 100%;
+}
+.khung--footer--left{
+    width: 25%;
+}
+.khung--footer--center--left{
+    width: 25%;
+}
+.khung--footer--center--right{
+    width: 25%;
+}
+.khung--footer--right{
+    width: 25%;
+}
+.menu-button{
+    position: absolute;
+    display: none;
+}
+/* mobile device */
+@media screen and (max-width: 480px){
+    .image--qc img{
+        width: 100%;
+        
+    }
+    .navbar--logo{
+        width: 100%;
+        height: 45px;
+        background-color: #f50000;
+        position: fixed;
+        margin-top: 56px;
+        display: flex;
+        
+    }
+    .navbar--logo img{
+        padding-top: 10px;
+        width: 100px;
+        height: 26px;
+    }
+    .khung--search{
+        margin-top: 10px;
+        margin-left: 10px;
+        display: flex;
+    }
+    .input--timsanpham{
+        width: 120px;
+        height: 20px;
+        border:2px solid rgba(255, 255, 255, 0);
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        margin-left: -10px;
+    }
+
+    .btn--search{
+        float: right;
+        width: 30px;
+        height: 26px;
+        background: #484848;
+        color: white;
+        /* border: 1px solid grey; */
+        border-left: none;
+        cursor: pointer;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        margin-bottom: 20px;
+    }
+    
+
+    #giohang--logo{
+        margin-top: 10px;
+        margin-left: 30px;
+        font-size:25px;
+        color: white;
+    }
+    .giohang--title{
+        display: none;
+    }
+    .sdt--muahang{
+       display: none;
+    }
+    .btn--login{
+        width: 30px;
+        margin-top: 15px;
+        display: none;
+        /* margin-left: 50px; */
+    }
+    #menu-button{
+        position: absolute;
+        display: block;
+        width: 35px;
+        height: 35px;
+        margin-left: 60px;
+        padding-top: 5px;
+    }
+    .table--menu{
+        display: none;
+        width: 100%;
+        padding-top: 10px;
+    }
+    .menu--product--left{
+        border: 1px solid black;
+        border-radius: 10px;
+        min-width: 200px;
+        height: 280px;
+        margin-top: -500px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 200px;
+        padding-bottom: 0px;
+    }
+    #menu ul{
+        /* float: left; */
+        list-style: none;
+        padding-inline-start: 5px;
+        padding-inline-end: 0px;
+        display: block;
+    }
+    
+    #menu ul li a{
+        display: block;
+        color: black;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 0.3cm 6px;
+    }
+    #menu li a:hover{
+        color: white;
+        background: orange;
+    }
+    #menu li ul{
+        position: absolute;
+        display: none;
+        width: 200px;
+        left: 225px;
+        margin-top: -41px;
+        background-color: white;
+        /* transition: 1S ease; */
+    }
+    #menu li:hover ul{
+        display: block;
+    }
+    #menu ul li ul li {
+        width:100% ;
+        border: 1px solid rgb(96, 99, 96);
+    }
+    
+    .g1{
+        border-bottom: 1px solid rgb(174, 174, 174);
+    }
+    #slide--show {
+        overflow: hidden;
+        height: 150px;
+        width: 100%;
+        /* margin: 0 auto; */
+        margin-top: 15px;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin-left: -200px;
+    }
+    .slide-wrapper {
+        width: 2912px;
+        -webkit-animation: slide 14s ease infinite;
+    }
+    .slide {
+        float: left;
+        height: 330px;
+        width: 728px;
+    }
+    @-webkit-keyframes slide {
+        20% {margin-left: 0px;}
+        30% {margin-left: -728px;}
+        50% {margin-left: -728px;}
+        60% {margin-left: -1456px;}
+        80% {margin-left: -1456px;}
+    }
+    .QC--right--1{
+        display: none;
+        margin-top: 15px;
+        margin-left: 20px;
+        border-radius: 10px;
+    }
+    .QC--right--2{
+        display: none;
+        margin-top: 15px;
+        margin-left: 20px;
+        border-radius: 10px;
+    }
+    
+}
+
+
+
+.dinhvi{
+    display: flex;
+}
+#dinhvi--logo{
+    margin-top: 15px;
+    font-size:30px;
+    color: white;
+    text-align: center;
+    margin-left: 20px;
+}
+.dinhvi--title{
+    color: #f1f1f1;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+:root{
+    --main-color:#f50000 ;
+    --text-color:#171427 ;
+    --bg-color: #fff;
+}
+.image--qc{
+    position: fixed;
+    margin-top: -120px;
+    z-index: 99;
+}
+.navbar--logo{
+    width: 100%;
+    height: 65px;
+    background-color: #f50000;
+    position: fixed;
+    top: 0;
+    margin-top: 56px;
+    display: flex;
+    z-index: 100;
+}
+.khung--search{
+    margin-top: 10px;
+    margin-left: 50px;
+    display: flex;
+}
+.input--timsanpham{
+    width: 300px;
+    height: 39px;
+    border:2px solid rgba(255, 255, 255, 0);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-left: -10px;
+}
+.btn--search{
+    float: left;
+    width: 80px;
+    height: 46px;
+    background: #484848;
+    color: white;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.giohang{
+    display: flex;
+}
+#giohang--logo{
+    margin-top: 8px;
+    margin-left: 50px;
+    font-size:48px;
+    color: white;
+}
+.giohang--title{
+    color: #f1f1f1;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.sdt--muahang{
+    margin-top: 10px;
+    margin-left: 30px;
+    color: #f1f1f1;
+    width: fit-content;
+}
+.btn--login{
+    width: 100px;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+.navbar--menu{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(212, 211, 211);
+    top: 0;
+    margin-top: 121.5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.tablet{
+    margin-top: 10px;
+}
+.nav-re-home{
+    display: flex;
+    height: 30px;
+    width: 100%;
+    box-shadow: 0 1px 3px rgba(20, 19, 19, 0.1);
+    padding-top: 10px;
+}
+.nav-re-home a{
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 3px 5px;
+    font-weight: bold;
+    color: var(--text-color);   
+}
+.dd{
+    margin-top: 5px;
+    color: #f50000;
+}
+
+.shop-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,auto));
+    gap: 1rem;
+}
+.product-box{
+    box-shadow: 0 1px 4px rgba(26, 24, 24, 0.2);
+    padding: 30px;
+    position: relative;
+    z-index: 1;
+    
+}
+.product-box:hover{
+    /* padding-top: 20px; */
+    box-shadow: 0 2px 6px rgba(20, 19, 19, 0.5);
+    transition: 0.4s ease-in-out;
+}
+.product-box img{
+    padding-top: 10px;
+    padding-bottom: 0px;
+    transition: 0.4s;
+}
+.product-box img:hover{
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+.badge {
+    color: #fff;
+    background: #ea9d02;
+    border-radius: 3px;
+    padding: 3px 5px;
+}
+.price{
+    color: var(--main-color);
+}
+.img-products{
+   width: 220px;
+}
+.product-title{
+    font-size: medium;
+    margin-right: 10px;
+}
+.title-product{
+    display: flex;
+    /* justify-content:space-evenly; */
+    padding:1.5rem 1rem;
+}
+.title-3-1{
+    padding-top: 10px;
+}
+.title-3-1 a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.brand-product{
+    text-align: center;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    border: 1px solid var(--text-color);
+    box-shadow: 0 2px 4px rgba(26, 24, 24, 0.2);
+    margin-left: 30px;
+}
+.brand-product img{
+    height: 20px;
+}
+.button{
+    width: 100%;
+    text-align: center;
+}
+.button-detail-product{
+    text-align: center;
+    padding: 0.5rem 1.5rem;
+    background: #ea9d02;
+    border-radius: 20px;
+    text-decoration: none;
+    color: var(--bg-color);
+    transition: 0.4s;
+}
+.product-box a{
+    margin-left: auto;
+    margin-right: auto;
+}
+.button-detail-product:hover{
+    background: #cd1817;
+    padding: 0.5rem 2rem;
+}
+.khung--footer{
+    display: flex;
+    width: 100%;
+}
+.khung--footer--left{
+    width: 25%;
+}
+.khung--footer--center--left{
+    width: 25%;
+}
+.khung--footer--center--right{
+    width: 25%;
+}
+.khung--footer--right{
+    width: 25%;
+}
+#menu-button{
+    display: none;
+}
+.v1{
+    border-left: 3px solid rgb(255, 123, 0);
+    padding-left: 10px;
+}
+.ff3{
+    color: rgb(75, 98, 215);
+}
+
+
+.tieude{
+    color: blue;
+}
+
+
+.dinhvi{
+    display: flex;
+}
+#dinhvi--logo{
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size:30px;
+    color: white;
+    text-align: center;
+}
+.dinhvi--title{
+    color: #f1f1f1;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.a1{
+    text-decoration: none;
+}

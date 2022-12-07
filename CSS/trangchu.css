@@ -1,13 +1,14 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
-}
+} */
 body{
     font-family:Arial, Helvetica, sans-serif;
 }
 .image--qc{
     position: fixed;
     margin-top: -123.5px;
+    z-index: 99;
 }
 .navbar--logo{
     width: 100%;
@@ -17,6 +18,7 @@ body{
     top: 0;
     margin-top: 56px;
     display: flex;
+    z-index: 100;
 }
 .khung--search{
     margin-top: 10px;
@@ -182,7 +184,21 @@ th{
     80% {margin-left: -1456px;}
 }
 
-
+.dinhvi{
+    display: flex;
+}
+#dinhvi--logo{
+    margin-top: 15px;
+    font-size:30px;
+    color: white;
+    text-align: center;
+    margin-left: 20px;
+}
+.dinhvi--title{
+    color: #f1f1f1;
+    margin-top: 25px;
+    margin-left: 10px;
+}
 .QC--right--1,.QC--right--2{
     margin-top: 15px;
     margin-left: 20px;
@@ -216,6 +232,80 @@ th{
     width: 98%;
     margin-left: 20px;
     height: 400px;
+}
+.shop-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,auto));
+    gap: 1rem;
+    z-index: 0;
+}
+.product-box{
+    box-shadow: 0 1px 4px rgba(26, 24, 24, 0.2);
+    padding: 30px;
+    position: relative;
+    z-index: 1;
+    
+}
+.product-box:hover{
+    /* padding-top: 20px; */
+    box-shadow: 0 2px 6px rgba(20, 19, 19, 0.5);
+    transition: 0.4s ease-in-out;
+}
+.product-box img{
+    padding-top: 10px;
+    padding-bottom: 0px;
+    transition: 0.4s;
+}
+.product-box img:hover{
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+.badge {
+    color: #fff;
+    background: #ea9d02;
+    border-radius: 3px;
+    padding: 3px 5px;
+}
+.brand-product{
+    text-align: center;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    border: 1px solid var(--text-color);
+    box-shadow: 0 2px 4px rgba(26, 24, 24, 0.2);
+    margin-left: 30px;
+}
+
+.button-detail-product{
+    text-align: center;
+    padding: 0.5rem 1.5rem;
+    background: #ea9d02;
+    border-radius: 20px;
+    text-decoration: none;
+    color: var(--bg-color);
+    transition: 0.4s;
+}
+.button-detail-product:hover{
+    background: #cd1817;
+    padding: 0.5rem 2rem;
+}
+.button{
+    width: 100%;
+    text-align: center;
+}
+.price{
+    color: var(--main-color);
+}
+.img-products{
+   width: 220px;
+}
+.product-title{
+    font-size: medium;
+    margin-right: 10px;
+}
+.title-product{
+    display: flex;
+    /* justify-content:space-evenly; */
+    padding:1.5rem 1rem;
 }
 
 .f2{
@@ -277,6 +367,9 @@ th{
     .image--qc img{
         display: none;
         
+    }
+    .dinhvi{
+        display: none;
     }
     .navbar--logo{
         width: 100%;
