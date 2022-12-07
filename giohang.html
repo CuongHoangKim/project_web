@@ -5,15 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vietsmart</title>
-    <link rel="stylesheet" href="./CSS/tablet.css">
+    <link rel="stylesheet" href="./CSS/giohang.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="image--qc">
-        <img src="./Image/qctren.webp" alt="" width="100%" height="100%" class="a1">
+        <img src="./Image/qctren.webp" alt="" width="100%" height="60px" class="a1">
     </div>
     <div class="navbar--logo">
-        <img src="./Image/logo.png" alt="logo" width="250px" height="65px" href="./trangchu.html" >
+        <a href="./trangchu.html"><img src="./Image/logo.png" alt="logo" width="250px" height="65px"  ></a>
         <div class="khung--search">
             <div>
                 <input id="search" type="text" placeholder="Bạn cần tìm gì..." autocomplete="off" value="" class="input--timsanpham">
@@ -23,47 +24,94 @@
                 <button type="submit" class="btn--search"><i class="fa fa-search" style="font-size:20px;color: white;"></i></button>
             </div>
         </div>
-        <a href="./giohang.html" style="text-decoration:none ;">
-            <div class="giohang">
-                <i class="fa fa-shopping-cart" id="giohang--logo"></i>
-                <p class="giohang--title"><b>Giỏ hàng</b></p>
-            </div></a>
+        <div class="giohang">
+            <i class="fa fa-shopping-cart" id="giohang--logo"></i>
+            <p class="giohang--title"><b>Giỏ hàng</b></p>
+        </div>
         <div class="sdt--muahang">
             <i class="fa fa-phone" style="font-size:20px;color: white;"></i>
             <b>093 394 2452</b> <br>
             <b>Gọi mua hàng</b>
         </div>
-        <div class="button-login">
-            <button type="text" class="btn--login"><b>Đăng nhập/Đăng ký</b></button>
+        <div class="dinhvi">
+            <!-- <button type="text" class="btn--login"><b>Đăng nhập/Đăng ký</b></button> -->
+            <i class="fa fa-map-marker" id="dinhvi--logo"></i> <br>
+            <p class="dinhvi--title"><b>Cửa hàng gần nhất</b></p>
         </div>
         <div>
             <img src="./Image/list.png" alt="" id="menu-button">
         </div>
 
     </div>
-    <div class="tablet">
-        <div class="nav-re-home">
-            <div>
-                <a href="./trangchu.html"><img src="./Image/home.png" alt="" height="25px">Home</a> >
-                <a href="./tablet.html">Tablet</a> >
-                <a href="#">Nokia</a>
+    <br><br><br><br><br><br><br><br>
+    <form action="">
+        <div class="giohang--thanhtoan">
+            <div class="sp--giohang">
+                <div class="top--tt">
+                <div class="sanpham">
+                    <img src="./ImageDienthoai/iphone14promax.png" alt="" width="250px">
+                </div>
+                <div class="thongtin--sanpham">
+                    <h3><b>
+                        iPhone 14 Pro Max 128GB | Chính hãng VN/A-Vàng</b></h3>
+                        <span class="price"><b>41.990.000₫</b></span>
+                        <div class="them">
+                            <p class="them--soluong">Thêm số lượng:</p>
+                            <input type="text" class="chon--soluong" value="" />
+                        </div>
+                        <div class="khuyenmai">
+                            <ul type="round" class="f2">
+                                <span class="f1">- Chương trình khuyến mãi:</span>
+                                <li>Giảm thêm 1.000.000 khi mua trả góp. Giá chỉ còn 32.990.000</li>
+                                <li>Bộ sạc cáp nhanh iPhone. Giá 450k chỉ còn 280k</li>
+                                <li>Ốp lưng iMotion Pro bảo vệ gấp 3 lần. Giá 160k chỉ còn 90k</li>
+                                <li>Dán cường lực full màn iMotion. Giá 100k chỉ còn 80k</li>
+                            </ul>
+                        </div>
+                    <br>
+                </div>
+                </div>
+                <hr class="hr--hr--1">
+                    <div class="tongtien">
+                        <div class="left--tongtien">Tổng tiền: <br> <span><b>Cần thanh toán</b></span></div>
+                        <div class="right--tongtien">
+                            <span >41.990.000₫</span> <br>
+                            <span class="price" style="color: red;"><b>41.990.000₫</b></span>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="nhapthongtin">
+                    <div>
+                        <input type="text" class="form--input--1" value="" id="username" name="username" placeholder="Họ và tên (*)"/>
+                        <input type="text" class="form--input--2" value="" id="username" name="username" placeholder="Số điện thoại (*)"/>
+                    </div> <br>
+                    <div>
+                        <input type="text" class="form--input--3" value="" id="username" name="username" placeholder="Email (không bắt buộc)"/>
+                    </div> <br>
+                    <div>
+                        <input type="text" class="form--input--3" value="" id="username" name="username" placeholder="Địa chỉ giao hàng (*)"/>
+                    </div> <br>
+                    <div>
+                        <input type="text" class="form--input--3" value="" id="username" name="username" placeholder="Lưu ý cho người bán (không bắt buộc)"/>
+                    </div>
+                </div> <br>
+                <div class="tt-tsp">
+                    <div class="tt-tsp--1">
+                        <span id="chu">TIẾN HÀNH ĐẶT HÀNG</span>
+                    </div> <br>
+                    <a href="./trangchu.html" style="text-decoration: none;">
+                    <div class="tt-tsp--2">
+                        <span id="chu">CHỌN THÊM SẢN PHẨM KHÁC</span>
+                    </div></a>
+                    
+                </div>
             </div>
         </div>
-        <div class="title-product">
+    </form>
+    
 
-            <div class="title-3-1"><a href="./tablet.html">TABLET</a></div>
-            <!-- <div class="brand-product"><a href="./tablet-ipad.html"><img src="./ImageLogo/iPad.png" alt=""></a></div>
-            <div class="brand-product"><a href="./tablet-samsung.html"><img src="./ImageLogo/samsung.png" alt=""></a></div>
-            <div class="brand-product"><a href="#"><img src="./ImageLogo/xiaomi.png" alt=""></a> </div> -->
-            <!-- <div class="brand-product"><a href="#"><img src="./ImageLogo/lenovo.png" alt=""></a> </div> -->
-            <div class="brand-product"><a href="#"><img src="./ImageLogo/nokia.png" alt=""></a> </div>
-        </div>
-        
-        <div class="shop-content" id="shop-content-nokia">
-            
-        </div>
-        <script src="./JS/tablet.js"></script> 
-    </div>
+
+
     <br><br>
     <hr class="k1">
 </body>
