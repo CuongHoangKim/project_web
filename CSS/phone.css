@@ -75,6 +75,14 @@ body{
 }
 .price{
     color: var(--main-color);
+    font-weight: bold;
+}
+.v1{
+    border-left: 3px solid rgb(255, 123, 0);
+    padding-left: 10px;
+}
+.ff3{
+    color: rgb(75, 98, 215);
 }
 .img-products{
    width: 220px;

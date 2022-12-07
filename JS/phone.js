@@ -1,4 +1,4 @@
-wwindow.addEventListener("load",
+window.addEventListener("load",
 function() {
   var xhr = new XMLHttpRequest();
   xhr.open("GET", "./Data/phone.xml", false);
@@ -33,9 +33,9 @@ let productElements = doc.getElementsByTagName("product");
 let html = "";
 for (let i = 0; i < 12; i++) {
     html += "<div class='product-box'>";
-    html+="<img src='./ImagePhone/";
+    html+="<img src='./ImageDienthoai/";
         html+=productElements[i].getElementsByTagName("image")[0].childNodes[0].nodeValue;
-        html+="' alt='' class='img-products'>";
+        html+="' alt='' class='img-products'>"+"</br>";
         html +="<span class='badge'>"+
             productElements[i].getElementsByTagName("tragop")[0].childNodes[0].nodeValue + "</span>";
         html +="<h2 class='product-title'>"+
@@ -44,7 +44,7 @@ for (let i = 0; i < 12; i++) {
             productElements[i].getElementsByTagName("price")[0].childNodes[0].nodeValue + "</span>";
         html +="<p class='v1'>"+"<span class='ff3'>"+
             productElements[i].getElementsByTagName("khuyenMai")[0].childNodes[0].nodeValue +"</span></p>"
-        html +="<div class='button'><a href='#'' class='button-detail-product'>Thông tin chi tiết</a></div>";
+        // html +="<div class='button'><a href='#'' class='button-detail-product'>Thông tin chi tiết</a></div>";
     html += "</div>";
 }
 document.getElementById("shop-content").innerHTML += html;
@@ -56,9 +56,9 @@ let productElements = doc.getElementsByTagName("product");
 let html = "";
 for (let i = 12; i < productElements.length; i++) {
     html += "<div class='product-box'>";
-    html+="<img src='./ImagePhone/";
+    html+="<img src='./ImageDienthoai/";
         html+=productElements[i].getElementsByTagName("image")[0].childNodes[0].nodeValue;
-        html+="' alt='' class='img-products'>";
+        html+="' alt='' class='img-products'>"+"</br>";
         html +="<span class='badge'>"+
             productElements[i].getElementsByTagName("tragop")[0].childNodes[0].nodeValue + "</span>";
         html +="<h2 class='product-title'>"+
@@ -67,7 +67,7 @@ for (let i = 12; i < productElements.length; i++) {
             productElements[i].getElementsByTagName("price")[0].childNodes[0].nodeValue + "</span>";
         html +="<p class='v1'>"+"<span class='ff3'>"+
             productElements[i].getElementsByTagName("khuyenMai")[0].childNodes[0].nodeValue +"</span></p>"
-        html +="<div class='button'><a href='#'' class='button-detail-product'>Thông tin chi tiết</a></div>";
+        // html +="<div class='button'><a href='#'' class='button-detail-product'>Thông tin chi tiết</a></div>";
     html += "</div>";
 }
 document.getElementById("shop-content").innerHTML += html;

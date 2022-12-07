@@ -1,6 +1,7 @@
 .image--qc{
     position: fixed;
     margin-top: -123.5px;
+    z-index: 99;
 }
 .navbar--logo{
     width: 100%;
@@ -10,6 +11,7 @@
     top: 0;
     margin-top: 56px;
     display: flex;
+    z-index: 100;
 }
 .khung--search{
     margin-top: 18px;
